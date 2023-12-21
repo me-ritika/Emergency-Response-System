@@ -136,7 +136,7 @@ h1{
    
     
 }
-h1{
+.container .sec1 h1{
    
     font-weight: bold;
     color:white;
@@ -174,6 +174,121 @@ hr{
     right: 24rem;
 
 
+
+}
+.text{
+    position: relative;
+bottom:20rem;
+left:43rem
+}
+
+.content{
+    width:100%;
+    height: 700px;
+
+    position: relative;
+    
+    text-align: center;
+}
+.textbox{
+    width: 50%;
+    height: 700px;
+   
+    position: relative;
+    left:28rem;
+    text-align: center;
+    line-height: 1.7rem;
+}
+.content h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color:rgb(7, 17, 94);
+    position: relative;
+    top:3rem;
+    
+
+}
+.content p{
+    position: relative;
+    top:2rem;
+    color: grey;
+}
+
+.demo{
+    width: 100%;
+    height: 800px;
+  /* background-color: #A1021A; */
+    position: relative;
+    top:1rem;
+   
+
+}
+.demo .text1{
+    width: 50%;
+    position: relative;
+    left:28rem;
+
+}
+.demo .mainbox{
+    width: 60%;
+    height: 600px;
+    position: relative;
+    left:23rem;
+    top:5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.demo .mainbox .box{
+    width: 30%;
+    height: 200px;
+    background-color:#d5d1d2;
+    
+   
+}
+
+.demo .mainbox .box .icon{
+    height: 40px;
+    width: 0px;
+    background-color: #d5d1d2;
+    position: relative;
+    top:2rem;
+    left:7rem;
+ 
+    
+}
+.demo .mainbox .box .icon{
+    
+    font-size: 2rem;
+    color: rgb(75, 110, 22);
+    
+}
+.demo .mainbox .box span{
+    font-size: 1.2rem;
+    color:black;
+    font-weight:bold;
+    position: relative;
+    top:1rem;
+     right:1rem;
+
+
+}
+
+.demo .minitext{
+    height: 50px;
+    width: 200px;
+    background-color:#d5d1d2;
+    position: relative;
+    right:5.5rem;
+    font-size: 0.7rem;
+    
+
+}
+
+.demo .minitext p6{
+   
+    color: black;
 
 }
  
