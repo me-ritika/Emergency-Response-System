@@ -1,0 +1,179 @@
+/* *{
+    font-family: sans-serif;
+
+}
+
+
+.container{
+    height: 1100px;
+    width: 100%;
+    background-color: pink;
+}
+.container .sec1{
+    width: 30%;
+    height: 1100px;
+    background-color:#A1021A;
+    text-align: center;
+   
+   
+    
+}
+
+h1{
+    font-size: 8rem;
+    font-weight: bold;
+    color:white;
+     position: relative;
+     top:30rem; 
+}
+
+.container .sec2{
+    width: 70%;
+    height: 1100px;
+    background-color: blue;
+    text-align: center;
+    position: relative;
+    left:115rem;
+    bottom: 69rem;
+   
+
+    
+}
+.container .sec2 img{
+    height: 1100px;
+    width: 100%;
+  
+    
+}
+   
+
+ */
+
+
+ *{font-family: sans-serif;
+    
+ }
+ .one{
+     background-color: rgb(44, 45, 44);
+     height: 80px;
+     width:100%;
+     font-size: 1.2rem;
+     margin: 0px;
+     color: white;
+   
+     
+ 
+ }
+ .one ul{
+     position: relative;
+     right:10px;
+     top:1.8rem;
+     text-align: left;
+     
+ }
+  .one ul li{
+     display: inline;
+     margin:10px;  
+     
+  }
+ 
+  .one ul li:hover{
+     color: aqua;
+     cursor: pointer;
+  }
+ 
+  .one span{
+     position: relative;
+     
+ 
+  }
+  #log{
+    position: relative;
+    left:84rem;
+    bottom: 0.8rem;
+    font-size: 1.2rem;
+ 
+ 
+  }
+   #sign{
+    position: relative;
+    left:85rem;
+    bottom:0.8rem;
+    font-size: 1.2rem;
+ 
+  }
+ 
+  #log:hover{
+    cursor: pointer;
+    color:  aqua;
+ 
+  }
+  #sign:hover{
+    cursor: pointer;
+    color:  aqua;
+    
+  }
+ 
+  .container{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+    position: relative;
+    bottom: 1.3rem;
+    bottom: 1.9rem;
+}
+
+.container .sec1{
+    width: 25%;
+    height: 400px;
+    background-color:#A1021A;
+    text-align: center;
+    position: relative;
+    top:3rem;
+    left:4rem;
+    
+   
+   
+    
+}
+h1{
+   
+    font-weight: bold;
+    color:white;
+    font-size: 3rem;
+    position: relative;
+    top:10rem;
+    
+
+
+     
+}
+.container .sec2{
+    width: 65%;
+    height: 400px;
+    background-color: blue;
+    text-align: center;
+    position: relative;
+    bottom:22rem;
+    left:29rem;
+   
+
+    
+}
+.container .sec2 img{
+    height: 400px;
+    width: 100%;
+  
+    
+}
+
+hr{
+    width: 40%;
+    position:relative;
+    bottom: 19rem;
+    right: 24rem;
+
+
+
+}
+ 
