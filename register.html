@@ -14,29 +14,29 @@
     <div class="container-fluid p-0 ">
         <div class="row ">
             <div class="col">
-                <nav class="navbar navbar-expand-sm navbar-dark bg-black">
-                    <a href="" class="navbar-brand me-5">Ambulance Finder</a>
+                <nav class="navbar navbar-expand-sm" style="background-color: #E61D27;">
+                    <a href="" class="navbar-brand me-5 ms-4" style="font: 28px bold ; color: white;" >SwiftSavior</a>
     
                     <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                         <span class="navbar-toggler-icon"></span>
                       </button>
     
-                    <div class="collapse navbar-collapse" id="mynavbar">
-                        <ul class="navbar-nav m-2 p-1 justify-content-between" style="width: 40%;">
-                            <li class="nav-item  ">
-                                <a href="" class="nav-link ">Home</a>
+                    <div class="collapse navbar-collapse " id="mynavbar">
+                        <ul class="navbar-nav m-2 p-1  justify-content-end" style="width: 90%; font: 1.1em sans-serif;">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link text-white ">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="" class="nav-link">About Us</a>
+                                <a href="Aboutus.html" class="nav-link text-white ">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a href="" class="nav-link">Gallery</a>
+                                <a href="gallery.html" class="nav-link text-white ">Gallery</a>
                             </li>
                             <li class="nav-item">
-                                <a href="" class="nav-link">Services</a>
+                                <a href="services.html" class="nav-link text-white ">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a href="" class="nav-link">Contact Us</a>
+                                <a href="contactUs.html" class="nav-link text-white ">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -49,50 +49,50 @@
         <div class="row d-flex justify-content-center">
             <div class="col-md-5 mt-5">
                 <h3>Sign up</h3>
-                <form class="shadow p-3" onsubmit="return validForm()">
+                <form class="shadow p-3" style="border-radius: 3%;" onsubmit="return validForm()">
                     <div class="mb-2">
-                        <label for="fname">FirstName</label>
-                        <input type="text" name="fname" id="fname" class="form-control" onkeyup="fnameValidate()">
+                        <label for="fname">First Name</label>
+                        <input type="text" name="fname" id="fname" class="form-control"  placeholder="Enter your first name" onkeyup="fnameValidate()">
                         <span id="fnameMsg"></span>
                     </div>
 
                     <div class="mb-2">
-                        <label for="lname">LastName</label>
-                        <input type="text" name="lname" id="lname" class="form-control" onkeyup="lnameValidate()">
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lname" id="lname" class="form-control" placeholder="Enter your last name" onkeyup="lnameValidate()">
                         <span id="lnameMsg"></span>
                     </div>
 
-                    <div class="mb-2">
-                        <label for="uname">UserName</label>
+                    <!-- <div class="mb-2">
+                        <label for="uname">User Name</label>
                         <input type="text" name="uname" id="uname" class="form-control" onkeyup="unameValidate()">
                         <span id="unameMsg"></span>
-                    </div>
+                    </div> -->
 
                     <div class="mb-2">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email" class="form-control" onkeyup="emailValidate()">
+                        <input type="email" name="email" id="email" class="form-control"  placeholder="Enter your email" onkeyup="emailValidate()">
                         <span id="emailMsg"></span>
                     </div>
 
                     <div class="mb-2">
                         <label for="phone">Phone</label>
-                        <input type="number" name="phone" id="phone" class="form-control" onkeyup="phoneValidate()">
+                        <input type="number" name="phone" id="phone" class="form-control"  placeholder="Enter your phone number" onkeyup="phoneValidate()">
                         <span id="phoneMsg"></span>
                     </div>
 
                     <div class="mb-2">
                         <label for="pwd">Password</label>
-                        <input type="password" name="pwd" id="pwd" class="form-control" onkeyup="pwdValidate()">
+                        <input type="password" name="pwd" id="pwd" class="form-control" placeholder="Enter your password" onkeyup="pwdValidate()">
                         <span id="pwdMsg"></span>
                     </div>
 
-                    <div class="mb-2">
-                        <input type="submit" value="Register" class="btn btn-primary">
+                    <div class="mb-2 mt-3">
+                        <input type="submit" value="Register" class="btn btn-danger">
                     </div>
 
                     <div class="mb-2 ">
                         <h6>Already have an account? <b>
-                            <a href="login.html">Sign in</a></b></h6>
+                            <a href="login.html" class="text-danger">Sign in</a></b></h6>
                     </div>
 
 

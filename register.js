@@ -44,25 +44,25 @@ const lnameValidate=()=>{
     }
 }
 
-const unameValidate=()=>{
-    const user_name=document.getElementById('uname').value
-    if(user_name==""){
-        displayMsg('User name is mandatory','unameMsg','red')
-        return false
-    }
-    else if(!user_name.match(/^([a-zA-Z])+$/)){
-        displayMsg('Last name must not contain numeric values','unameMsg','red')
-        return false
-    }
-    else if(user_name.length<3){
-        displayMsg('User name must be more than 2 character','unameMsg','red')
-        return false
-    }else{
-        displayMsg('','unameMsg','green')
-        return true
+// const unameValidate=()=>{
+//     const user_name=document.getElementById('uname').value
+//     if(user_name==""){
+//         displayMsg('User name is mandatory','unameMsg','red')
+//         return false
+//     }
+//     else if(!user_name.match(/^([a-zA-Z])+$/)){
+//         displayMsg('Last name must not contain numeric values','unameMsg','red')
+//         return false
+//     }
+//     else if(user_name.length<3){
+//         displayMsg('User name must be more than 2 character','unameMsg','red')
+//         return false
+//     }else{
+//         displayMsg('','unameMsg','green')
+//         return true
 
-    }
-}
+//     }
+// }
 
 const emailValidate=()=>{
     const email=document.getElementById('email').value

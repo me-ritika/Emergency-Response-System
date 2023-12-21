@@ -14,29 +14,29 @@
     <div class="container-fluid p-0 ">
         <div class="row ">
             <div class="col">
-                <nav class="navbar navbar-expand-sm navbar-dark bg-black">
-                    <a href="" class="navbar-brand me-5">Ambulance Finder</a>
+                <nav class="navbar navbar-expand-sm" style="background-color: #E61D27;">
+                    <a href="" class="navbar-brand me-5 ms-4" style="font: 28px bold ; color: white;" >SwiftSavior</a>
     
                     <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                         <span class="navbar-toggler-icon"></span>
                       </button>
     
-                    <div class="collapse navbar-collapse" id="mynavbar">
-                        <ul class="navbar-nav m-2 p-1 justify-content-between" style="width: 40%;">
-                            <li class="nav-item  ">
-                                <a href="" class="nav-link ">Home</a>
+                    <div class="collapse navbar-collapse " id="mynavbar">
+                        <ul class="navbar-nav m-2 p-1  justify-content-end" style="width: 90%; font: 1.1em sans-serif;">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link text-white ">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="" class="nav-link">About Us</a>
+                                <a href="Aboutus.html" class="nav-link text-white ">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a href="" class="nav-link">Gallery</a>
+                                <a href="gallery.html" class="nav-link text-white ">Gallery</a>
                             </li>
                             <li class="nav-item">
-                                <a href="" class="nav-link">Services</a>
+                                <a href="services.html" class="nav-link text-white ">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a href="" class="nav-link">Contact Us</a>
+                                <a href="contactUs.html" class="nav-link text-white ">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -49,31 +49,32 @@
         <div class="row d-flex justify-content-center">
             <div class="col-md-5 mt-5">
                 <h3>Sign in</h3>
-                <form class="shadow p-3">
+                <form class="shadow p-3" style="border-radius: 3%;">
                     <div class="mb-2">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email" class="form-control" onkeyup="emailValidate() ">
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" onkeyup="emailValidate() ">
                         <span id="emailMsg"></span>
                     </div>
 
                     <div class="mb-2">
                         <label for="pwd">Password</label>
-                        <input type="password" name="pwd" id="pwd" class="form-control" onkeyup="pwdValidate()">
+                        <input type="password" name="pwd" id="pwd" class="form-control" placeholder="Enter your password" onkeyup="pwdValidate()">
                         <span id="pwdMsg"></span>
                     </div>
                     
-                    <div class="mb-2">
-                        <input type="submit" value="Login" class="btn btn-primary">
+                    <div class="mb-2 mt-3">
+                        <input type="submit" value="Login" class="btn btn-danger">
                     </div>
                     <div class="mb-2 ">
                         <h6>Not Registered? <b>
-                            <a href="register.html">Create an Account</a></b></h6>
+                            <a href="register.html" class="text-danger">Create an Account</a></b></h6>
                     </div>
 
                 </form>
             </div>
         </div>
     </div>
+    <script src="login.js"></script>
 </body>
 
 </html>
