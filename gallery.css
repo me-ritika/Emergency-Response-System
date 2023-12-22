@@ -1,0 +1,163 @@
+
+.four{
+    height: 750px;
+    background-color: rgb(255, 255, 254);
+}
+.four .text4{
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    position: relative;
+    top:100px;
+    left:480px;
+
+
+}
+.text4 h1{
+    color: #a3c962;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    position: relative;
+    top:30px;
+    left:90px;
+    
+
+}
+
+.text4 h2{
+    font-size: 34px;
+    letter-spacing: 1.5px;
+    position: relative;
+    top:20px;
+    left:58px;
+    font-weight: none;
+
+
+}
+
+.text4 h3{
+    font-weight: none;
+    letter-spacing:1.5px ;
+    word-spacing: 2px;
+    position: relative;
+    left:280px;
+    bottom: 40px;
+    line-height: 24px;
+    color:grey
+}
+.four .image41{
+    height: 400px;
+    width: 550px;
+    background-color: pink;
+    position: relative;
+    left:180px;
+    top:100px;
+}
+.four .image41 img{
+    width:100%;
+    height: 100%;
+}
+.four .image42{
+    width:260px;
+    height: 200px;
+    background-color: pink;
+    position: relative;
+    top: 130px;
+    left:180px;
+}
+.four .image42 img{
+    width:100%;
+    height: 100%;
+}
+.four .image43 img{
+    width:100%;
+    height: 100%;
+}
+.four .image44 img{
+    width:100%;
+    height: 100%;
+}
+.four .image45 img{
+    width:100%;
+    height: 100%;
+}
+.four .image46 img{
+    width:100%;
+    height: 100%;
+}
+.four .image47 img{
+    width:100%;
+    height: 100%;
+}
+.four .image48 img{
+    width:100%;
+    height: 100%;
+}
+.four .image49 img{
+    width:100%;
+    height: 100%;
+}
+
+
+
+.four .image43{
+    width:260px;
+    height: 200px;
+    background-color: rgb(190, 23, 50);
+    position: relative;
+   top:-70px;
+    left:467px;
+}
+.four .image44{
+    width: 550px;
+    height: 450px;
+    background-color: rgb(129, 48, 62);
+    position: relative;
+    left:180px;
+    top:-30px;
+}
+.four .image45{
+    width:260px;
+    height: 200px;
+    background-color: pink;
+    position: relative;
+    left:780px;
+    bottom: 1150px;
+
+}
+.four .image46{
+    width:260px;
+    height: 200px;
+    background-color: pink;
+    position: relative;
+    left:780px;
+    bottom: 1000px;
+
+}
+.four .image47{
+    width:550px;
+    height: 450px;
+    background-color: rgb(101, 5, 21);
+    position: relative;
+    left:780px;
+    bottom: 980px;
+}
+
+.four .image48{
+    width:260px;
+    height: 200px;
+    background-color: rgb(145, 45, 62);
+    position: relative;
+    left:1070px;
+    bottom: 1650px; 
+
+}
+.four .image49{
+    width:255px;
+    height: 328px;
+    background-color:#a3c962;
+    position: relative;
+    left:1070px;
+    bottom: 2200px; 
+
+}
