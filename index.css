@@ -163,19 +163,23 @@ color: black;
 }
 
 .container-3 .container .clients .pics{
-    width:90px;
-    height:90px;
-    border-radius: 50%;
-    background-color: black;
+    width:80px;
+    height:80px;
+    /* border-radius: 50%; */
+    background-color: rgb(255, 255, 255);
     position: relative;
     top:2.5rem;
     left:2rem;
+    font-size: 3rem;
 }
 
-.container-3 .container .clients .pics img{
+.container-3 .container .clients .pics i{
     width: 90px;
     height: 90px;
     border-radius:50% ;
+    position: relative;
+    bottom: 0rem;
+    right: 0.4rem;
 }
 
 .container-3 .container .clients p{
@@ -187,7 +191,7 @@ color: black;
     line-height: 16px;
     font-weight: normal;  
     position: relative;
-    bottom:6rem;
+    bottom: 10rem;
     left:6rem;
   
    

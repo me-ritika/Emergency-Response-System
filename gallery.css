@@ -1,0 +1,121 @@
+.four{
+    height: 750px;
+    background-color: rgb(255, 255, 254);
+}
+
+.four .image41{
+    height: 400px;
+    width: 550px;
+    background-color: pink;
+    position: relative;
+    left:180px;
+    top:180px;
+}
+.four .image41 img{
+    width:100%;
+    height: 100%;
+}
+.four .image42{
+    width:260px;
+    height: 200px;
+    background-color: pink;
+    position: relative;
+    top: 210px;
+    left:180px;
+}
+.four .image42 img{
+    width:100%;
+    height: 100%;
+}
+.four .image43 img{
+    width:100%;
+    height: 100%;
+}
+.four .image44 img{
+    width:100%;
+    height: 100%;
+}
+.four .image45 img{
+    width:100%;
+    height: 100%;
+}
+.four .image46 img{
+    width:100%;
+    height: 100%;
+}
+.four .image47 img{
+    width:100%;
+    height: 100%;
+}
+.four .image48 img{
+    width:100%;
+    height: 100%;
+}
+.four .image49 img{
+    width:100%;
+    height: 100%;
+}
+
+
+
+.four .image43{
+    width:260px;
+    height: 200px;
+    background-color: rgb(190, 23, 50);
+    position: relative;
+   top:10px;
+    left:467px;
+}
+.four .image44{
+    width: 550px;
+    height: 450px;
+    background-color: rgb(129, 48, 62);
+    position: relative;
+    left:180px;
+    top:50px;
+}
+.four .image45{
+    width:260px;
+    height: 200px;
+    background-color: pink;
+    position: relative;
+    left:780px;
+    bottom: 1070px;
+
+}
+.four .image46{
+    width:260px;
+    height: 200px;
+    background-color: pink;
+    position: relative;
+    left:780px;
+    bottom: 920px;
+
+}
+.four .image47{
+    width:550px;
+    height: 450px;
+    background-color: rgb(101, 5, 21);
+    position: relative;
+    left:780px;
+    bottom: 900px;
+}
+
+.four .image48{
+    width:260px;
+    height: 200px;
+    background-color: rgb(145, 45, 62);
+    position: relative;
+    left:1070px;
+    bottom: 1570px; 
+
+}
+.four .image49{
+    width:255px;
+    height: 328px;
+    background-color:#a3c962;
+    position: relative;
+    left:1070px;
+    bottom: 2120px; 
+
+}
