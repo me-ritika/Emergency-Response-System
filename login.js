@@ -3,8 +3,6 @@ const displayMsg=(msg,id,colorname)=>{
     document.getElementById(id).style.color=colorname
 
 }
-
-
 const emailValidate=()=>{
     const email=document.getElementById('email').value
     if(email==""){
@@ -22,7 +20,6 @@ const emailValidate=()=>{
 
 }
 
-
 const pwdValidate=()=>{
     const password=document.getElementById('pwd').value
     if(password==""){
@@ -39,7 +36,8 @@ const pwdValidate=()=>{
 }
 
 const validForm=()=>{
-    if(emailValidate() && pwdValidate()){
+    if(emailValidate() &&pwdValidate()){
+        console.log("logged in")
         return true
     }
     else

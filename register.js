@@ -114,7 +114,8 @@ const pwdValidate=()=>{
 }
 
 const validForm=()=>{
-    if(fnameValidate() &&lnameValidate() &&unameValidate() &&emailValidate() &&phoneValidate() &&pwdValidate()){
+    if(fnameValidate() &&lnameValidate() &&emailValidate() &&phoneValidate() &&pwdValidate()){
+        console.log("Registered")
         return true
     }
     else
