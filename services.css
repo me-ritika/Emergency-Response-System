@@ -1,8 +1,141 @@
-.details{
-    height: 450px;
-    border-radius: 5%;
-    /* background-color: aqua;
-    border-radius: 5%;
-    margin-top: 50px;
-    margin-right: -50px; */
+
+body {
+  margin: 0;
+  padding: 0;
 }
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar {
+  background-color: #E61D27;
+}
+
+.navbar-brand {
+  font: 28px bold;
+  color: white;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.navbar-nav {
+  width: 90%;
+  font: 1.1em sans-serif;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-link {
+  color: white;
+}
+
+/* Add more styles as needed */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar {
+    background-color: #E61D27;
+}
+
+.navbar-brand {
+    font: 28px bold;
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-nav {
+    width: 90%;
+    font: 1.1em sans-serif;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-link {
+    color: white;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container-fluid {
+    padding: 0;
+  }
+  
+ 
+  
+  .pt-2 {
+    height: 6rem;
+    font-size: 38px;
+  }
+  
+  .m-5 {
+    margin: 5rem;
+  }
+  
+  .card {
+    width: 19rem;
+    height: 30rem;
+    background-color: #E61D27;
+    color: white;
+    box-shadow: 10px 10px 5px rgb(197, 194, 194);
+  }
+  
+  .card-img-top {
+    padding: 3px;
+  }
+  
+  .card-body {
+    padding: 0;
+  }
+  
+  .card-text {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+  
+  .h-50 {
+    height: 50%;
+  }
+  
+  .p-0 {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .b {
+    font-weight: bold;
+  }
+  
+  

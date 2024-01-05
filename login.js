@@ -27,7 +27,7 @@ const pwdValidate=()=>{
         return false
     }
     else if(!password.match(/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$?!]).{8,100}$/ )){
-        displayMsg('Weak password must be greater than 8 contain a number and special character','pwdMsg','red')
+        displayMsg('Weak password ','pwdMsg','red')
         return false
     }else{
         displayMsg('Password is strong','pwdMsg','green')
@@ -36,7 +36,7 @@ const pwdValidate=()=>{
 }
 
 const validForm=()=>{
-    if(emailValidate() &&pwdValidate()){
+    if(emailValidate() && pwdValidate()){
         console.log("logged in")
         return true
     }

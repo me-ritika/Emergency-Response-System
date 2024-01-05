@@ -1,244 +1,87 @@
 
-
- *{font-family: sans-serif;
-    
- }
- .one{
-     background-color: rgb(44, 45, 44);
-     height: 80px;
-     width:100%;
-     font-size: 1.2rem;
-     margin: 0px;
-     color: white;
-   
-     
- 
- }
- .one ul{
-     position: relative;
-     right:10px;
-     top:1.8rem;
-     text-align: left;
-     
- }
-  .one ul li{
-     display: inline;
-     margin:10px;  
-     
-  }
- 
-  .one ul li:hover{
-     color: aqua;
-     cursor: pointer;
-  }
- 
-  .one span{
-     position: relative;
-     
- 
-  }
-  #log{
-    position: relative;
-    left:84rem;
-    bottom: 0.8rem;
-    font-size: 1.2rem;
- 
- 
-  }
-   #sign{
-    position: relative;
-    left:85rem;
-    bottom:0.8rem;
-    font-size: 1.2rem;
- 
-  }
- 
-  #log:hover{
-    cursor: pointer;
-    color:  aqua;
- 
-  }
-  #sign:hover{
-    cursor: pointer;
-    color:  aqua;
-    
-  }
- 
-  .container{
-    height: 600px;
-    width: 100%;
-    background-color: rgb(211, 211, 211);
-    position: relative;
-    bottom: 1.3rem;
-    bottom: 1.9rem;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.container .sec1{
-    width: 25%;
-    height: 400px;
-    background-color:#A1021A;
-    text-align: center;
-    position: relative;
-    top:3rem;
-    left:4rem;
-    
-   
-   
-    
+.container-fluid {
+    padding: 0;
 }
-.container .sec1 h1{
-   
-    font-weight: bold;
-    color:white;
-    font-size: 3rem;
-    position: relative;
-    top:10rem;
-    
+
+.navbar {
+    background-color: #E61D27;
+}
+
+.navbar-brand {
+    font: 28px bold;
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-nav {
+    width: 90%;
+    font: 1.1em sans-serif;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-link {
+    color: white;
+}
 
 
-     
-}
-.container .sec2{
-    width: 65%;
-    height: 400px;
-    background-color: blue;
-    text-align: center;
-    position: relative;
-    bottom:22rem;
-    left:29rem;
-   
-
-    
-}
-.container .sec2 img{
-    height: 400px;
-    width: 100%;
-  
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
     
 }
 
-hr{
-    width: 40%;
-    position:relative;
-    bottom: 19rem;
-    right: 24rem;
-
-
-
-}
-.text{
-    position: relative;
-bottom:20rem;
-left:43rem
+.row h1 {
+    margin-left: 28%;
+    margin-top: 2%;
 }
 
-.content{
-    width:100%;
-    height: 700px;
-
-    position: relative;
-    
-    text-align: center;
-}
-.textbox{
-    width: 50%;
-    height: 700px;
-   
-    position: relative;
-    left:28rem;
-    text-align: center;
-    line-height: 1.7rem;
-}
-.content h1{
-    font-size: 2rem;
-    font-weight: bold;
-    color:rgb(7, 17, 94);
-    position: relative;
-    top:3rem;
-    
-
-}
-.content p{
-    position: relative;
-    top:2rem;
-    color: grey;
-}
-
-.demo{
-    width: 100%;
-    height: 800px;
-  /* background-color: #A1021A; */
-    position: relative;
-    top:1rem;
-   
-
-}
-.demo .text1{
-    width: 50%;
-    position: relative;
-    left:28rem;
-
-}
-.demo .mainbox{
-    width: 60%;
-    height: 600px;
-    position: relative;
-    left:23rem;
-    top:5rem;
+.row .col-3 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    
-}
-.demo .mainbox .box{
-    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 200px;
-    background-color:#d5d1d2;
-    
-   
-}
-
-.demo .mainbox .box .icon{
-    height: 40px;
-    width: 0px;
-    background-color: #d5d1d2;
-    position: relative;
-    top:2rem;
-    left:7rem;
- 
-    
-}
-.demo .mainbox .box .icon{
-    
-    font-size: 2rem;
-    color: rgb(75, 110, 22);
-    
-}
-.demo .mainbox .box span{
-    font-size: 1.2rem;
-    color:black;
-    font-weight:bold;
-    position: relative;
-    top:1rem;
-     right:1rem;
-
-
-}
-
-.demo .minitext{
-    height: 50px;
-    width: 200px;
-    background-color:#d5d1d2;
-    position: relative;
-    right:5.5rem;
-    font-size: 0.7rem;
-    
-
-}
-
-.demo .minitext p6{
-   
+    width: 250px;
+    border-radius: 5%;
     color: black;
-
 }
- 
+
+.row .col-3 i {
+    font-size: 35px;
+    color: #E61D27;
+}
+
+.row .col-3 h5 {
+    margin-top: 5%;
+}
+
+.row .col-3 p {
+    margin: 0;
+}
+
+
+.bg-body-tertiary {
+    background-color: #E61D27;
+    color: white;
+}
+
+.row.justify-content-center.pt-4.pb-4.justify-content-around .col-3 {
+    margin: 0;
+}
+
+.row.justify-content-center.pb-4.pt-3.justify-content-around .col-3 {
+    margin: 0;
+}
+

@@ -1,42 +1,86 @@
-.row h1{
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar {
+    background-color: #E61D27;
+}
+
+.navbar-brand {
+    font: 28px bold;
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-nav {
+    width: 90%;
+    font: 1.1em sans-serif;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-link {
+    color: white;
+}
+
+/* Add more styles as needed */
+
+/* contactUs.css */
+
+.row h1 {
     text-align: center;
 }
+
 .text-info-emphasis {
     text-align: start;
-  }
-  
-#details ul{
-    list-style: none;
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: space-between;
-
 }
-#details ul li{
+
+#details ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#details ul li {
     font-size: 15px;
     color: rgb(76, 70, 70);
-    /* display: flex;  */
-  align-items: center; 
+    align-items: center;
 }
-#details ul li i{
+
+#details ul li i {
     font-size: 10px;
     padding-right: 15px;
     color: cornflowerblue;
-
 }
-#details ul h5{
+
+#details ul h5 {
     font-size: 11px;
     color: rgb(76, 70, 70);
-    /* text-align: center; */
 }
 
-.col-4 i{
+.col-4 i {
     font-size: 20px;
     padding-right: 15px;
 }
-#message{
+
+#message {
     height: 150px;
 }
-h5 .info{
+
+h5 .info {
     font-size: 9px;
 }
+
+/* Add more styles as needed */
