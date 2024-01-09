@@ -40,12 +40,13 @@
 }
 
 .ambulance-section .button-container button {
+    max-width: 300px;
     margin: 0 10px; 
     border-radius: 5px;
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    width: 120px;
+    width: 170px;
     font-weight: bolder;
   font-weight: bolder;
 }
@@ -73,11 +74,9 @@
 }
 
 .btn-find {
-    width: 170px;
-    position: absolute;
-    left: 25%;
-    bottom: 12rem;
-    transform: translateX(-50%);
+    max-width: 300px; /* Adjusted max-width to make it responsive */
+    width: 100%; 
+    margin: 0 auto; 
     border: none;
     border-radius: 5px;
     padding: 10px;
@@ -85,7 +84,14 @@
     text-align: center;
     text-decoration: none;
     background-color: #E61D27;
-    cursor: pointer; 
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    white-space: nowrap; 
+    display: inline-block;
+}
+
+.btn-find:hover {
+    background-color: #f7010d;
 }
 
 .feature-section {
