@@ -129,5 +129,11 @@ body {
         cursor: pointer;
     }
     
+    .demo2 h1{
+        font-size: 0.9rem;
+        color:white;
+        position: relative;
+        top: 0.3rem;
+    }
     
    
